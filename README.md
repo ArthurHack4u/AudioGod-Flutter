@@ -23,7 +23,7 @@ Proyecto final presentado por:
 | Nombre | Matrícula | Rol |
 | :--- | :--- | :--- |
 | **Moran Escalante Bryan Arturo** | 67406 | Lead Developer & Audio Engine |
-| **Rafael Inurreta del Valle** | [Matrícula] | UI/UX Design & Documentation |
+| **Rafael Inurreta del Valle** | 62151 | UI/UX Design & Documentation |
 
 ---
 © 2025 Audio God Project.
