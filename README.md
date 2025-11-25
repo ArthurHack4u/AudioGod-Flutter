@@ -1,16 +1,29 @@
-# audio_god_eq
+# 🎧 AUDIO GOD - High Fidelity Equalizer
 
-A new Flutter project.
+Aplicación móvil desarrollada en Flutter capaz de procesar audio y ecualizar frecuencias en tiempo real. Cuenta con una arquitectura híbrida para superar las limitaciones de sandboxing en iOS y Android.
 
-## Getting Started
+## 📱 Características
 
-This project is a starting point for a Flutter application.
+* **Android:** Motor de Ecualización Global (afecta Spotify, YouTube, etc.) mediante inyección de Session ID.
+* **iOS:** Motor nativo escrito en **Swift** (`AVAudioEngine`) para reproducción Bit-Perfect y EQ Paramétrico de 5 bandas.
+* **Interfaz:** Diseño "Glassmorphism" (Liquid Glass) reactivo.
+* **Persistencia:** Sistema de Singleton (`AudioBrain`) para mantener el estado de audio en background.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tecnologías
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Framework:** Flutter & Dart
+* **Native iOS:** Swift (AVFoundation)
+* **Native Android:** Kotlin (AudioFX Framework)
+* **State Management:** Provider / Singleton Pattern
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 👥 Equipo de Desarrollo
+
+Proyecto final presentado por:
+
+| Nombre | Matrícula | Rol |
+| :--- | :--- | :--- |
+| **Moran Escalante Bryan Arturo** | 67406 | Lead Developer & Audio Engine |
+| **Rafael Inurreta del Valle** | [Matrícula] | UI/UX Design & Documentation |
+
+---
+© 2025 Audio God Project.
